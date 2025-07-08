@@ -23,7 +23,7 @@ We'll implement a two-part solution:
 #### 1.2. Create script file
 
 ```bash
-sudo nano /usr/local/bin/ensure-current-boot.sh
+sudo nano /home/deck/.local/bin/ensure-current-boot.sh
 ```
 
 #### 1.2. Paste script
@@ -79,7 +79,7 @@ exit 0
 #### 1.3. Make it executable
 
 ```bash
-sudo chmod +x /usr/local/bin/ensure-current-boot.sh
+sudo chmod +x /home/deck/.local/bin/ensure-current-boot.sh
 ```
 
 ### 2. Create the Systemd Service Unit
