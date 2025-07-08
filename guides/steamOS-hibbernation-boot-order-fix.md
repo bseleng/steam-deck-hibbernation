@@ -138,7 +138,7 @@ sudo /usr/local/bin/ensure-current-boot.sh
 efibootmgr
 ```
 
-###Troubleshooting
+### Troubleshooting
 If issues persist:
 
 Check all EFI boot entries:
