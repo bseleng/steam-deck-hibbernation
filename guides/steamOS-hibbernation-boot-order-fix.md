@@ -122,7 +122,7 @@ sudo systemctl enable reset-boot-order.service
 #### 3.1. Check service status:
 
 ```bash
-systemctl status steamos-bootfix.service
+sudo systemctl status reset-boot-order.service
 ```
 
 #### 3.2. View logs
@@ -162,5 +162,5 @@ sudo efibootmgr -n XXXX  # Replace with your current boot number
 Check systemd logs:
 
 ```bash
-journalctl -u steamos-bootfix.service -b --no-pager
+journalctl -u reset-boot-order.service -b --no-pager
 ```
